@@ -56,7 +56,7 @@ def extract_purchase_order_number(text):
 
 
 
-pytesseract.pytesseract.tesseract_cmd = 'C:\\Program Files\\Tesseract-OCR\\tesseract.exe'
+pytesseract.pytesseract.tesseract_cmd = r'/usr/bin/tesseract'
 
 st.title("An Invoice OCR APP")
 st.text("Step 1 : Upload Invoice which contains English Text")
