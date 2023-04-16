@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pytesseract 
 import re
-import cv2 as cv
+import opencv-python as cv
 from PIL import Image 
 import pandas as pd
 
