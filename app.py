@@ -16,7 +16,7 @@ def load_data(sheets_url):
 df = load_data(st.secrets["public_gsheets_url"])
 # Print results.
 for row in df.itertuples():
-    st.write(f"{row.Total}:")
+    st.write(f"{row.Total}")
     
 #def extract_total_amount_due(output):
 #    pattern = r'Total\s+amount\s+due\s+\(USD\)\s+([\d.]+)'
